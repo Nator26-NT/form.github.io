@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="styles/style.css"/>
+		<title>survey-form</title>
+</head>
+<body>
+		<body>
+  <style>
+    body {
+  background-color: lightblue;
+    }
+    fieldset {
+     background-color: gold;
+     font-family: monospace;
+      width: 700px;
+      position: relative;
+      left: 260px;
+    }
+    #name {
+      require: input;
+
+    }
+    #number {
+
+    }
+    #email {
+
+    }
+     #submit {
+
+     }
+    </style>
+  <form id="survey-form">
+  <figure>
+    <fieldset>
+          
+      <h1 id="title">NATOR-CODING register</h1>
+<p id="description">fill in form: </p>
+<label for="name" id="name-label">ENTER YOUR FULL NAME:<input type-"text" id="name"  placeholder="whats ur name" required="name">
+<br>
+<br>
+
+<label for="email" id="email-label">ENTER YOUR MAIL:
+  <input type="email" id="email" placeholder="type ur mail" required="email">
+<br>
+<br>
+<Label for="number" id="number-label">PHONE-NUM: <br><input type="number" id="number" placeholder="phone no." min="10" max="123467890" />
+<br>
+<br>
+<label>FAVORITE PROGRAMMING LANGUAGE: <br> </label>
+<select id="dropdown" name="role"/>
+  <option>python</option>
+   <option>javascript</option>
+    <option>java</option>
+     <option>c++</option>
+     </select>
+ <br>
+ <br>
+ <p>ARE U CERTAIN ABOUT UR CHOICE?</p>
+ <input type="radio" name="yes" value="yes">yes
+  <input type="radio"name="maybe" value="maybe">maybe
+  <input type="radio" name="no" value="no" >no   
+ <p>HAVE STUDIED HERE BEFORE?</p>
+ <input type="radio" name="yes" value="yes">yes
+  <input type="radio"name="maybe" value="maybe">maybe
+  <input type="radio" name="no" value="no" >no
+  <br>
+  <br>
+  <p>CONTINENT OF ORIGIN(tick)
+    <br>
+  <input type="checkbox" name="africa" value="africa" >africa
+
+ <input type="checkbox" name="africa" value="africa" >asia
+ <input type="checkbox" name="africa" value="africa" >south-america
+ <input type="checkbox" name="africa" value="africa" >north-america
+  <input type="checkbox" name="africa" value="africa" >europe
+<br>
+<br>
+<button id="submit" type="submit">submit</button>
+<br>
+<br>
+<textarea>ur thoughts about freecodecamp</textarea>
+
+
+
+
+
+
+</fieldset>
+
+
+
+
+
+
+
+</label>
+  </figure>
+  </form>
+  </body>
+</body>
+</html>
